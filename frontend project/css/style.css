@@ -1,0 +1,506 @@
+ul {
+    padding-left: 0;
+}
+
+.headernav {
+    padding-bottom: 32px;
+}
+
+.iconimg img {
+    width: 212px;
+    margin-left: 47px;
+    margin-top: -7px;
+}
+
+.menu {
+    display: flex;
+    justify-content: end;
+    padding-right: 20px;
+}
+
+.menu>ul>li>a {
+    padding: 20px;
+}
+
+.menu a {
+    color: black;
+}
+
+.lists {
+    display: flex;
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+}
+
+.lists li {
+    list-style-type: none;
+}
+
+.home:hover #homelist {
+    display: block;
+}
+
+#homelist {
+    position: absolute;
+    margin-top: 20px;
+    background-color: white;
+    width: 200px;
+    display: none;
+    line-height: 1.9;
+    font-size: 15px;
+    z-index: 50000;
+}
+
+
+/* slider start */
+
+#slider {
+    position: relative;
+    width: 100%;
+    height: 500px;
+}
+
+#slider .images {
+    width: 100%;
+    height: 100%;
+}
+
+#slider .images .item {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    -webkit-transition: opacity 0.5s;
+    transition: opacity 0.5s;
+}
+
+#slider .images .item img {
+    width: 100%;
+    height: 100%;
+}
+
+#slider .images .active {
+    opacity: 1 !important;
+}
+
+#slider .nav {
+    position: absolute;
+    font-size: 50px;
+    top: 45%;
+    color: #cfcfcf;
+    cursor: pointer;
+}
+
+#slider .nav i:hover {
+    font-size: 60px;
+    color: black;
+    -webkit-transition: 0.1s;
+    transition: 0.1s;
+}
+
+#slider .left {
+    left: 15px;
+}
+
+#slider .right {
+    right: 15px;
+}
+
+#slider .sign {
+    position: absolute;
+    width: 400px;
+    top: 75px;
+    left: 195px;
+    font-family: kepler-std-semicondensed-dis, serif;
+}
+
+#slider .sign .title h1 {
+    font-size: 44px;
+    width: 350px;
+}
+
+#slider .sign p {
+    font-size: 18px;
+}
+
+
+/* slider end */
+
+
+/* second nav start */
+
+.secondnav {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.undermenu {
+    display: flex;
+}
+
+.undermenu>ul>li>a {
+    padding-right: 40px;
+    color: black;
+}
+
+.underlists {
+    list-style-type: none;
+    display: flex;
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+}
+
+.pics img {
+    width: 100%;
+    padding-bottom: 25px;
+}
+
+.pics p {
+    margin-left: 25%;
+    font-size: 12px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    letter-spacing: .1em;
+}
+
+.pics .gray {
+    margin-left: 40% !important;
+    font-weight: 500 !important;
+    color: grey !important;
+}
+
+
+/* second nav end */
+
+
+/* valentine start */
+
+section .valentine-section {
+    width: 100%;
+    background-color: #F7F7F7;
+}
+
+section .valentine-section .content {
+    margin: 0 auto;
+    width: 1270px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+section .valentine-section .content .image {
+    position: relative;
+    overflow: hidden;
+}
+
+section .valentine-section .content .image img {
+    margin: 120px 0;
+    width: 97%;
+    height: 421px;
+}
+
+section .valentine-section .content .image img:hover {
+    -webkit-transform: scale(1.1, 1.1);
+    transform: scale(1.1, 1.1);
+    cursor: pointer;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+section .valentine-section .content .image .rec {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 167px;
+    right: 350px;
+    border-radius: 50%;
+}
+
+section .valentine-section .content .text {
+    width: 500px;
+    height: 400px;
+    position: relative;
+}
+
+section .valentine-section .content .text .title {
+    position: absolute;
+    width: 415px;
+    top: 170px;
+    left: 70px;
+}
+
+section .valentine-section .content .text .title h1 {
+    font-family: kepler-std-semicondensed-dis, serif;
+    font-size: 42px;
+}
+
+section .valentine-section .content .text .paragraph {
+    position: absolute;
+    width: 500px;
+    top: 300px;
+    left: 70px;
+}
+
+section .valentine-section .content .text .paragraph p {
+    font-family: kepler-std-semicondensed-dis, serif;
+    font-size: 19px;
+}
+
+section .valentine-section .content .text .paragraph p .fa-heart {
+    color: #F34F3F;
+    padding-right: 5px;
+}
+
+
+/* valentine end */
+
+
+/* experts start */
+
+.experts {
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.expert-menu {
+    margin-bottom: 100px;
+    max-width: 904px;
+    padding-left: 217px;
+}
+
+.expert-menu h1,
+h5 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.expert_pics p {
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 600 !important;
+}
+
+.gray {
+    color: gray;
+}
+
+.expert_img {
+    margin-bottom: 20px;
+}
+
+
+/* experts end */
+
+
+/* emailsection start */
+
+section .background-image {
+    background-image: url(../img/h3-background-img.jpg);
+    min-height: 600px;
+    background-attachment: fixed;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+section .background-image h2 {
+    color: white;
+    font-family: kepler-std-semicondensed-dis, serif;
+    position: absolute;
+    top: 200px;
+    left: 40%;
+}
+
+section .background-image .input {
+    width: 635px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+section .background-image .input .email {
+    width: 467px;
+    height: 60px;
+    border-style: none;
+    outline: none;
+}
+
+section .background-image .input .submit {
+    background-color: #F34F3F;
+    height: 60px;
+    width: 168px;
+    border-style: none;
+    color: white;
+    outline: none;
+}
+
+
+/* emailsection end */
+
+
+/* blog start */
+
+.blog {
+    background-color: #f1f1f1;
+    padding-top: 150px;
+}
+
+.blog-menu {
+    margin-bottom: 75px;
+    max-width: 904px;
+    padding-left: 217px;
+}
+
+.blog-menu h1,
+h5 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.blog_pics {
+    padding: 0 15px;
+}
+
+.blog_pics p {
+    display: flex;
+    justify-content: center;
+    font-family: "Playfair Display";
+    font-size: 24px;
+}
+
+.blog_pics .gray {
+    text-align: center;
+    font-size: 14px !important;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.blog img {
+    width: 360px !important;
+    height: 268px !important;
+}
+
+.blog_img {
+    margin-bottom: 20px;
+}
+
+
+/* blog end */
+
+
+/* carousel start */
+
+#carouselExampleInterval {
+    width: 900px;
+    margin: auto;
+}
+
+.carousel-inner {
+    width: 700px;
+    margin: auto;
+}
+
+.carouseldiv {
+    width: 657px;
+    position: relative;
+    margin: auto;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.carouseltext {
+    width: 100%;
+    position: relative;
+    margin-top: 50px;
+    color: gray;
+}
+
+.carouseldiv .carouselimg {
+    width: 87px;
+    position: relative;
+    margin: auto;
+}
+
+.carouseldiv img {
+    width: 100%;
+    height: 87px;
+}
+
+.carouseldiv h6 {
+    text-align: center;
+}
+
+.carouseldiv h3 {
+    text-align: center;
+    font-weight: lighter;
+    font-style: italic;
+    line-height: 1.5em;
+    color: #4b4747;
+}
+
+
+/* carousel end */
+
+
+/* footer start */
+
+footer {
+    background-color: #fefaf3;
+}
+
+footer .footertop {
+    display: flex;
+    padding: 73px 0;
+    border-bottom: 1px solid gray;
+}
+
+footer .footertop .footerlist {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex: 1;
+}
+
+footer .footertop .footerlist h1 {
+    font-family: Montserrat;
+    font-size: 12px;
+    line-height: 2em;
+    font-weight: 500;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+}
+
+footer .footertop .footerlist h3 {
+    font-size: 12px;
+    line-height: 24px;
+}
+
+footer .footerbottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .footerbottom #social a {
+    display: inline-block;
+    margin-left: 30px;
+    text-decoration: none;
+    color: gray;
+}
+
+
+/* footer end */
+
+
+/* isledi */

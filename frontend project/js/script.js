@@ -14,14 +14,15 @@ $(document).ready(function() {
 
     })
 
-    // $(document).on("click", ".right", function() {
-    //     $(".active").removeClass("active");
-    //     if ($(".active").next() != null) {
-    //         $(".active").next().addClass("active");
-    //     } else {
-    //         $(".active").prevAll()[0].addClass("active")
-    //     }
-    // })
+    $(document).on("click", ".right", function() {
+        console.log($((".active")[0]).next())
+        $(".active")[0].removeClass("active");
+        if ($(".active")[0].next() != null) {
+            $(".active")[0].next().addClass("active");
+        } else {
+            $(".active")[0].prevAll()[0].addClass("active")
+        }
+    })
 
     leftBtn.addEventListener("click", function() {
         let active = document.querySelector(".active");

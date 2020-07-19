@@ -1,0 +1,11 @@
+.card-header {
+    cursor: pointer;
+}
+
+.card-body {
+    display: none;
+}
+
+.active {
+    display: block;
+}

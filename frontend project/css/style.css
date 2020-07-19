@@ -1,3 +1,5 @@
+/*  header start  */
+
 ul {
     padding-left: 0;
 }
@@ -53,7 +55,10 @@ ul {
 }
 
 
-/* slider start */
+/*  header end  */
+
+
+/* first section slider start */
 
 #slider {
     position: relative;
@@ -125,10 +130,10 @@ ul {
 }
 
 
-/* slider end */
+/* first section slider end */
 
 
-/* second nav start */
+/* second section filter start */
 
 .secondnav {
     padding-top: 80px;
@@ -172,10 +177,10 @@ ul {
 }
 
 
-/* second nav end */
+/* second section filter end */
 
 
-/* valentine start */
+/* third section valentine start */
 
 section .valentine-section {
     width: 100%;
@@ -254,10 +259,10 @@ section .valentine-section .content .text .paragraph p .fa-heart {
 }
 
 
-/* valentine end */
+/* third section valentine end */
 
 
-/* experts start */
+/* fourth section experts start */
 
 .experts {
     margin-top: 150px;
@@ -294,10 +299,10 @@ h5 {
 }
 
 
-/* experts end */
+/* fourth section experts end */
 
 
-/* emailsection start */
+/* fifth section email start start */
 
 section .background-image {
     background-image: url(../img/h3-background-img.jpg);
@@ -347,10 +352,10 @@ section .background-image .input .submit {
 }
 
 
-/* emailsection end */
+/* fifth section email end */
 
 
-/* blog start */
+/* sixth section blog start */
 
 .blog {
     background-color: #f1f1f1;
@@ -397,10 +402,10 @@ h5 {
 }
 
 
-/* blog end */
+/* sixth section blog end */
 
 
-/* carousel start */
+/* seventh section carousel start */
 
 #carouselExampleInterval {
     width: 900px;
@@ -451,7 +456,7 @@ h5 {
 }
 
 
-/* carousel end */
+/* seventh section carousel end */
 
 
 /* footer start */
@@ -501,6 +506,3 @@ footer .footerbottom #social a {
 
 
 /* footer end */
-
-
-/* isledi */

@@ -1,0 +1,321 @@
+/*  header start  */
+
+ul {
+    padding-left: 0;
+}
+
+.headernav {
+    padding-bottom: 32px;
+}
+
+.iconimg img {
+    width: 212px;
+    margin-left: 47px;
+    margin-top: -7px;
+}
+
+.menu {
+    display: flex;
+    justify-content: end;
+    padding-right: 20px;
+}
+
+.menu>ul>li>a {
+    padding: 20px;
+}
+
+.menu a {
+    color: black;
+}
+
+.lists {
+    display: flex;
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+}
+
+.lists li {
+    list-style-type: none;
+}
+
+.home:hover #homelist {
+    display: block;
+}
+
+#homelist {
+    position: absolute;
+    margin-top: 20px;
+    background-color: white;
+    width: 200px;
+    display: none;
+    line-height: 1.9;
+    font-size: 15px;
+    z-index: 50000;
+}
+
+
+/*  header end  */
+
+.text {
+    width: 100%;
+    background-color: #FAFAF9;
+}
+
+.text .container h1 {
+    padding: 80px 0;
+    font-family: kepler-std-semicondensed-dis, serif;
+    font-size: 60px;
+}
+
+section .menu-list .tabs {
+    margin: 100px auto;
+    width: 1270px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+section .menu-list .tabs .tab_menu {
+    width: calc((100% - 60px)/2);
+}
+
+section .menu-list .tabs .tab_menu .menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+section .menu-list .tabs .tab_menu .menu div {
+    border: 1px solid #EEEEEE;
+    padding: 15px 45px;
+    font-size: 12px;
+    cursor: pointer;
+    -webkit-transition: background-color 0.5s;
+    transition: background-color 0.5s;
+    font-family: presicav, sans-serif;
+}
+
+section .menu-list .tabs .tab_menu .menu div:hover {
+    color: red;
+}
+
+section .menu-list .tabs .tab_menu .content {
+    padding: 30px 20px;
+    border: 1px solid #EEEEEE;
+    width: 640px;
+}
+
+section .menu-list .tabs .tab_menu .content P {
+    font-family: kepler-std-semicondensed-dis, serif;
+    font-size: 17px;
+    color: #6D6A6A;
+    padding: 40px 20px;
+}
+
+section .menu-list .tabs .tab_menu .active {
+    background-color: #F34F3F;
+    color: white;
+}
+
+section .menu-list .tabs .tab_menu .active:hover {
+    color: white !important;
+}
+
+section .menu-list .tabs .tab_menu2 {
+    width: calc((100% - 60px)/2);
+}
+
+section .menu-list .tabs .tab_menu2 .menu2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+section .menu-list .tabs .tab_menu2 .menu2 div {
+    border: 1px solid #EEEEEE;
+    padding: 15px 45px;
+    font-size: 12px;
+    cursor: pointer;
+    -webkit-transition: background-color 0.5s;
+    transition: background-color 0.5s;
+    font-family: presicav, sans-serif;
+}
+
+section .menu-list .tabs .tab_menu2 .menu2 div:hover {
+    color: white;
+    background-color: #F34F3F;
+}
+
+section .menu-list .tabs .tab_menu2 .content2 {
+    padding: 30px 20px;
+    border: 1px solid #EEEEEE;
+    width: 640px;
+}
+
+section .menu-list .tabs .tab_menu2 .content2 P {
+    font-family: kepler-std-semicondensed-dis, serif;
+    font-size: 17px;
+    color: #6D6A6A;
+    padding: 40px 20px;
+}
+
+section .menu-list .tabs .tab_menu2 .active2 {
+    background-color: #F34F3F;
+    color: white;
+}
+
+section .menu-list .tabs .tab_menu2 .active2:hover {
+    background-color: #F34F3F;
+    color: white !important;
+}
+
+section .menu-list .tabs2 {
+    margin: 100px auto;
+    width: 1270px;
+}
+
+section .menu-list .tabs2 .tab_menu3 .menu3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+section .menu-list .tabs2 .tab_menu3 .menu3 div {
+    border: none;
+    padding: 10px 20px;
+    font-size: 12px;
+    cursor: pointer;
+    -webkit-transition: background-color 0.5s;
+    transition: background-color 0.5s;
+    font-family: presicav, sans-serif;
+}
+
+section .menu-list .tabs2 .tab_menu3 .content3 {
+    padding: 30px 20px;
+    border: 1px solid #EEEEEE;
+    border-left: none;
+    border-right: none;
+    width: 100%;
+}
+
+section .menu-list .tabs2 .tab_menu3 .content3 P {
+    font-family: kepler-std-semicondensed-dis, serif;
+    font-size: 17px;
+    color: #6D6A6A;
+    padding: 40px 20px;
+}
+
+section .menu-list .tabs2 .tab_menu3 .active3 {
+    color: red;
+}
+
+section .menu-list .tabs3 {
+    margin: 100px auto;
+    width: 1300px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+section .menu-list .tabs3 .tab_menu4 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+section .menu-list .tabs3 .tab_menu4 .menu4 div {
+    border: 1px solid #EEEEEE;
+    width: 155px;
+    text-align: center;
+    padding: 19px 44px;
+    height: 54px;
+    font-size: 12px;
+    cursor: pointer;
+    -webkit-transition: background-color 0.5s;
+    transition: background-color 0.5s;
+    font-family: presicav, sans-serif;
+}
+
+section .menu-list .tabs3 .tab_menu4 .menu4 div:hover {
+    color: white;
+    background-color: #F34F3F;
+}
+
+section .menu-list .tabs3 .tab_menu4 .content4 {
+    padding: 10px 30px;
+    border: 1px solid #EEEEEE;
+}
+
+section .menu-list .tabs3 .tab_menu4 .content4 P {
+    font-family: kepler-std-semicondensed-dis, serif;
+    font-size: 17px;
+    color: #6D6A6A;
+}
+
+section .menu-list .tabs3 .tab_menu4 .active4 {
+    background-color: #F34F3F;
+    color: white;
+}
+
+section .menu-list .tabs3 .tab_menu4 .active4:hover {
+    color: white !important;
+}
+
+
+/* footer start */
+
+footer {
+    background-color: #fefaf3;
+}
+
+footer .footertop {
+    display: flex;
+    padding: 73px 0;
+    border-bottom: 1px solid gray;
+}
+
+footer .footertop .footerlist {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex: 1;
+}
+
+footer .footertop .footerlist h1 {
+    font-family: 'Red Hat Text', sans-serif;
+    font-size: 12px;
+    line-height: 2em;
+    font-weight: bold;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    color: black;
+    margin-bottom: 20px;
+}
+
+footer .footertop .footerlist h3 {
+    font-size: 12px;
+    line-height: 24px;
+    color: gray;
+}
+
+footer .footerbottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .footerbottom #social a {
+    display: inline-block;
+    margin-left: 30px;
+    text-decoration: none;
+    color: gray;
+}
+
+
+/* footer end */

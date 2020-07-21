@@ -79,15 +79,32 @@ ul {
     margin-bottom: 100px;
 }
 
-.card-header {
+.card-header1,
+.card-header2,
+.card-header3,
+.card-header4 {
     cursor: pointer;
+    height: 50px;
+    padding-left: 50px;
+    padding-top: 14px;
+}
+
+.card-header1:hover,
+.card-header2:hover,
+.card-header3:hover,
+.card-header4:hover {
+    background-color: #F34F3F;
+    color: white;
 }
 
 .card-body {
     display: none;
 }
 
-.active {
+.active1,
+.active2,
+.active3,
+.active4 {
     display: block;
 }
 

@@ -1,0 +1,289 @@
+/*  header start  */
+
+ul {
+    padding-left: 0;
+}
+
+.headernav {
+    padding-bottom: 32px;
+}
+
+.iconimg img {
+    width: 212px;
+    margin-left: 47px;
+    margin-top: -7px;
+}
+
+.menu {
+    display: flex;
+    justify-content: end;
+    padding-right: 20px;
+}
+
+.menu>ul>li>a {
+    padding: 20px;
+}
+
+.lists {
+    display: flex;
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+}
+
+.lists>li {
+    position: relative;
+}
+
+.fa-angle-right {
+    display: inline-block;
+}
+
+.lists>li>ul {
+    width: 200px;
+    position: absolute;
+    left: 15%;
+    top: 15px;
+    padding-top: 48px;
+    z-index: 10;
+    background-color: white;
+    display: none;
+    line-height: 1.9;
+    font-size: 15px;
+}
+
+.lists>li:hover>ul {
+    display: block;
+}
+
+.lists>li>ul>li {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    width: 100%;
+    padding: 10px 15px;
+}
+
+.lists>li>ul>li>i {
+    padding-left: 20px;
+}
+
+.lists>li>ul>li>a {
+    display: inline-block;
+}
+
+.lists>li>ul>li>ul {
+    width: 200px;
+    background-color: white;
+    position: absolute;
+    left: 100%;
+    top: 20%;
+    display: none;
+    padding-left: 15px;
+    line-height: 1.9;
+    font-size: 15px;
+}
+
+.lists>li>ul>li>ul>li {
+    padding: 10px 15px;
+}
+
+.lists>li>ul>li:hover>ul {
+    display: block;
+}
+
+.lists li {
+    list-style-type: none;
+}
+
+
+/*  header end  */
+
+section .shop-list .page-title {
+    width: 100%;
+    background-color: #FAFAF9;
+    height: 200px;
+}
+
+section .shop-list .page-title h1 {
+    padding: 80px 100px;
+    font-family: kepler-std-semicondensed-dis, serif;
+    font-size: 60px;
+}
+
+section .shop-list .flower-list {
+    margin: 100px auto;
+    width: 1270px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+section .shop-list .flower-list .menu {
+    width: calc((100% - 120px)/4);
+    position: relative;
+}
+
+section .shop-list .flower-list .menu img {
+    width: 100%;
+    height: 380px;
+}
+
+section .shop-list .flower-list .menu p {
+    position: absolute;
+    color: white;
+    background-color: #F34F3F;
+    top: 10px;
+    left: 10px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 2px 15px;
+}
+
+section .shop-list .featured-items {
+    width: 1270px;
+    margin: 0 auto;
+    height: 1000px;
+}
+
+section .shop-list .featured-items .item-control {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+section .shop-list .featured-items .item-control p {
+    font-family: presicav, sans-serif;
+    font-size: 12px;
+}
+
+section .shop-list .featured-items .images {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+section .shop-list .featured-items .images .item {
+    width: calc((100% - 140px)/4);
+}
+
+section .shop-list .featured-items .images .item img {
+    width: 100%;
+}
+
+section .shop-list .featured-items .images .item .flower-detail {
+    width: 100%;
+    text-align: center;
+}
+
+section .shop-list .featured-items .images .item .flower-detail a {
+    display: inline-block;
+    margin-top: 20px;
+    font-family: 'Red Hat Text', sans-serif;
+    font-size: 12px;
+    color: black;
+    text-decoration: none;
+}
+
+section .shop-list .featured-items .images .item .flower-detail P {
+    font-size: 13px;
+}
+
+section .shop-list .featured-items .popular {
+    margin-top: 150px;
+    width: 1270px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+section .shop-list .featured-items .popular .item {
+    width: calc((100% - 160px)/6);
+}
+
+section .shop-list .featured-items .popular .item img {
+    width: 100%;
+    height: 180px;
+}
+
+section .shop-list .featured-items .popular .item .flower-detail {
+    width: 100%;
+    text-align: center;
+}
+
+section .shop-list .featured-items .popular .item .flower-detail a {
+    display: inline-block;
+    margin-top: 20px;
+    font-family: 'Red Hat Text', sans-serif;
+    font-size: 12px;
+    color: black;
+    text-decoration: none;
+}
+
+section .shop-list .featured-items .popular .item .flower-detail P {
+    font-size: 13px;
+}
+
+
+/* footer start */
+
+footer {
+    background-color: #fefaf3;
+}
+
+footer .footertop {
+    display: flex;
+    padding: 73px 0;
+    border-bottom: 1px solid gray;
+}
+
+footer .footertop .footerlist {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex: 1;
+}
+
+footer .footertop .footerlist h1 {
+    font-family: 'Red Hat Text', sans-serif;
+    font-size: 12px;
+    line-height: 2em;
+    font-weight: bold;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    color: black;
+    margin-bottom: 20px;
+}
+
+footer .footertop .footerlist h3 {
+    font-size: 12px;
+    line-height: 24px;
+    color: gray;
+}
+
+footer .footerbottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .footerbottom #social a {
+    display: inline-block;
+    margin-left: 30px;
+    text-decoration: none;
+    color: gray;
+}
+
+
+/* footer end */
